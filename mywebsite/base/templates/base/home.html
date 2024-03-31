@@ -1,0 +1,100 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfollio</title>
+    <link href = "{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+   
+    <!--img src="{% static '/images/my3.jpg' %}"-->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+
+                
+                <img id="profile-pic"src="{% static '/images/my3.jpg' %}">
+                <hr>
+                <h3>Hi , I am Mythrayee Gopal</h3>
+                <p> I am a Software Engineer and I Love Coding & Development !!!</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100 border-info">
+                    <h4 >Software Developer</h4>
+                    <hr>
+                    <p>Senior Software Developer working in Tata Communications with </p>
+                    <p>Python, Web Development, Network Automation with Devops, Ansible, Ansible Tower, Linux, Git, Django, Docker, Grafana, InfluxDB<p>
+                    </p>Eager to learn new technologies and aspire to get my hands dirty .</p>
+                    
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/linkedin.png'%}"><a href="https://www.linkedin.com/in/mythrayeegopal/">linkedin</a></li>
+                        <li><img class="social" src="{% static 'images/git.png'%}"><a href="https://github.com/mythrayee19">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100  border-info" id="profile-wrapper">
+                <h4>My experince as Developer</h4>
+                <hr>
+                <p> As a software Developer,Developed Most applications for telecom sectors,to provide automation of Networking device</p>
+                <p> Monitor and Alert network Systems, Develop and Deploy Network Configuations </p>
+            </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body h-100  border-info">
+                    <h4>Skill Sets</h4>
+                    <hr>
+                    <p>Python, Linux, Docker, Ansible, Network Automation,django</p>
+                    <p> Ansible Tower, Grafana ,InfluxDB, HTML, CSS,Booststrap</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100  border-info">
+                    <h4>Achivements</h4>
+                    <hr>
+                    <p>Was Awarded as Bravo by Senior manager for good work done on one of the critical projects for completing the project from scratch </p>
+                    <p> Awarded as Best Buddy by Vice president of Tata Communication for supporting new joinee into the team.</p>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="card card-body h-100  border-info">
+                    
+                    <h4>Other Skils</h4>
+                    <hr>
+                    <p> I have a sound communication skills and i have presented and handled projects in the best way in multiple meetings and discussions and i was appreciated by my team members</p>
+                    <p> good Presentation skills and efficient team player</p>
+                    <p> Eager to learn new skills and never hesitant to put more efforts in learning</p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
